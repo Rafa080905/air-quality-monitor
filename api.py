@@ -1,7 +1,7 @@
 import requests
+import streamlit as st
 
-TOKEN = "833e684e3cba42a5a30fb3a63ae0bd4809dac91a"
-
+TOKEN = st.secrets["TOKEN"]
 
 def search_station(keyword):
     """
